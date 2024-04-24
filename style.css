@@ -287,6 +287,7 @@ hr{
     padding: 25px;
     margin-top: 50px;
     min-width: 750px;
+    max-width: 750px;
 }
 
 .profissao p{
@@ -317,6 +318,7 @@ hr{
     padding: 25px;
     margin-top: 50px;
     min-width: 750px;
+    max-width: 750px;
 }
 
 .curso p{
@@ -375,4 +377,169 @@ hr{
 
 .socialMedia #linkedIn{
     margin-left: 25px;
+}
+
+@media (max-width: 1730px){
+    .profissao{
+        min-width: 700px;
+    }
+    
+    .curso{
+        min-width: 700px;
+    }
+}
+
+@media (max-width: 1630px){
+    .profissao{
+        min-width: 600px;
+    }
+
+    .curso{
+        min-width: 600px;
+    }
+}
+
+@media (max-width: 1600px){
+    .projetos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1440px){
+    .profissao{
+        min-width: 500px;
+    }
+
+    .curso{
+        min-width: 500px;
+    }
+}
+
+@media (max-width: 1360px){
+    .profissao{
+        min-width: 400px;
+    }
+
+    .curso{
+        min-width: 400px;
+    }
+}
+
+@media (max-width: 1330px){
+    .projetos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1220px){
+    #leftDiv{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #apresentacao{
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    #midDiv{
+        margin: 50px;
+    }
+
+    #rightDiv{
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 1035px){
+    #historico{
+        grid-template-columns: 1fr;
+    }
+
+    .profissao{
+        min-width: 700px;
+        max-width: 700px;
+    }
+
+    .curso{
+        min-width: 700px;
+        max-width: 700px;
+    }
+
+    .sobre{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 775px){
+    .projetos{
+        grid-template-columns: 1fr;
+    }
+
+    .profissao{
+        min-width: 500px;
+        max-width: 500px;
+    }
+
+    .curso{
+        min-width: 500px;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 670px){
+    .habilidades{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 560px){
+    .profissao{
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .curso{
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 520px){
+    .cabecalho{
+        display: none;
+    }
+
+    #meApresentacao{
+        width: 350px;
+    }
+}
+
+@media (max-width: 445px){
+    .rodape{
+        flex-direction: column;
+    }
+
+    .habilidades{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #meApresentacao{
+        width: 300px;
+    }
+
+    .me{
+        width: 300px;
+    }
+}
+
+@media (max-width: 390px){
+    #apresentacao{
+        grid-template-columns: 1fr;
+        height: 150vh;
+    }
 }
