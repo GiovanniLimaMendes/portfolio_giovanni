@@ -77,7 +77,7 @@ hr{
     color: rgb(200, 150, 255);
 }
 
-.me{
+#me{
     border: 5px solid rgba(161, 120, 199, 0.651);
     border-radius: 500px;
 }
@@ -532,7 +532,7 @@ hr{
         width: 300px;
     }
 
-    .me{
+    #me{
         width: 300px;
     }
 }
